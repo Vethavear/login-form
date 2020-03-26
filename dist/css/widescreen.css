@@ -1,0 +1,25 @@
+* {
+  overflow-x: hidden;
+}
+
+#showcase .formLoginContainer {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#showcase .bottom {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#showcase .top {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+/*# sourceMappingURL=widescreen.css.map */

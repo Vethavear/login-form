@@ -1,0 +1,234 @@
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.px-1 {
+  padding: 0 1rem;
+}
+
+.px-2 {
+  padding: 0 2rem;
+}
+
+.px-3 {
+  padding: 0 3rem;
+}
+
+.p1 {
+  padding: 1rem;
+}
+
+.p2 {
+  padding: 2rem;
+}
+
+.p3 {
+  padding: 3rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
+.ts1 {
+  font-size: 1.1rem;
+}
+
+.ts2 {
+  font-size: 1.2rem;
+}
+
+.ts3 {
+  font-size: 1.3rem;
+}
+
+.btext {
+  font-size: 2rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+#showcase {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#FF61FE), to(#0A17FF));
+  background-image: linear-gradient(to bottom left, #FF61FE, #0A17FF);
+}
+
+#showcase .formLoginContainer {
+  overflow: hidden;
+  width: 600px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#showcase .formLoginContainer .bottom {
+  width: 100%;
+  height: 100%;
+  background: url("../img/ali-yilmaz-LqztBrFUkec-unsplash.jpg") center center/cover no-repeat;
+}
+
+#showcase .formLoginContainer .top {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #15191c;
+  color: white;
+}
+
+#showcase .formLoginContainer .top h1 {
+  font-size: 1.8rem;
+}
+
+#showcase .formLoginContainer .top .formLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#showcase .formLoginContainer .top .row {
+  position: relative;
+}
+
+#showcase .formLoginContainer .top .row input {
+  border: none;
+  border-bottom: 2px solid gray;
+  background: #15191c;
+  margin: 2rem;
+  height: 20px;
+  color: white;
+  font-size: 1.1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: lighter;
+}
+
+#showcase .formLoginContainer .top .row input:focus, #showcase .formLoginContainer .top .row input:hover {
+  border-color: #4824FE;
+}
+
+#showcase .formLoginContainer .top .row label {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#showcase .formLoginContainer .top .row .hide {
+  opacity: 0;
+}
+
+#showcase .formLoginContainer .top button {
+  border: none;
+  background: #4824FE;
+  cursor: pointer;
+  width: 150px;
+  color: white;
+  height: 30px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  font-weight: 600;
+}
+
+#showcase .formLoginContainer .top button::before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #CF50FE;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#showcase .formLoginContainer .top button:hover {
+  color: white;
+}
+
+#showcase .formLoginContainer .top button:hover::before {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+/*# sourceMappingURL=main.css.map */
