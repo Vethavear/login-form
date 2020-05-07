@@ -1,22 +1,27 @@
+* {
+  overflow-x: hidden;
+}
 
-* { 
-    overflow-x: hidden;
+#showcase {
+  .formLoginContainer {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    .top {
+      .row {
+       label {
+          font-size: 1.5rem;
+        }
+      }
+    }
   }
-
-  #showcase {
-    .formLoginContainer {
-      height:100%;
-  width:100%;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius:0px ;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-.bottom{
-flex:1;
-}
-.top{
-flex:5;
-}
+  .bottom {
+    flex: 1;
   }
-
+  .top {
+    flex: 5;
+  }
+}
